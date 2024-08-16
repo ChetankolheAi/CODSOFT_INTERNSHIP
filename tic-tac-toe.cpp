@@ -163,6 +163,7 @@ void input(){
             cout<<"Enter the position to place ( O )"<<endl;
             player=2;
             cin>>input;
+            cout<<endl;
             update(input,player);
             result(player2);
             if(count==9){
